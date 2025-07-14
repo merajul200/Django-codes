@@ -8,5 +8,6 @@ urlpatterns = [
     # path('home/', views.home),
     path('', views.home),
     path("first_app/", include("first_app.urls")),
+    # path("second_app/", include("second_app.urls")),
     path('contact/', views.contact)
 ]
